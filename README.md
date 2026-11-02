@@ -1,5 +1,5 @@
-# PreisPing Website
+# PreisPing: Rechtliche Informationen
 
-Eigenständige statische Website, für eine separate GitHub-Pages-Publikation vorbereitet. Das private App-Repository und technische Belege dürfen nicht in den öffentlichen Website-Bestand kopiert werden.
+Diese statischen Seiten enthalten ausschließlich die Datenschutzerklärung, das Impressum und einen minimalen Einstieg zu den Rechtstexten. Sie verwenden keine Tracker, externen Schriftarten oder Skripte.
 
-Datenschutz und Impressum sind ausdrücklich vorläufig; offene Anbieter-, Vertrags-, Transfer- und Aufbewahrungsangaben müssen anhand des tatsächlichen Betriebs überprüft werden. Google-OAuth-Domainprüfung und öffentliche Freigabe sind gesondert zu verifizieren. Keine API-Schlüssel, Tokens, Betriebsdaten oder privaten App-Quelldateien veröffentlichen.
+Die kanonische Textquelle liegt im privaten PreisPing-App-Projekt unter `assets/data/legal_documents.json`. Mit `python3 tool/legal/generate_legal_site.py --output-dir <pages-checkout>` werden die Pages-Dateien aus dieser Quelle erzeugt. Nur der erzeugte statische Bestand wird in dieses öffentliche Repository übernommen.
